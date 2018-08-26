@@ -6,7 +6,7 @@ var connection;
 
 // DB is local on localhost
 connection = mysql.createConnection({
-    port: '/Applications/MAMP/tmp/mysql/mysql.sock',
+    port: '3306',
     host: 'localhost',
     user: 'root',
     password: 'root',
